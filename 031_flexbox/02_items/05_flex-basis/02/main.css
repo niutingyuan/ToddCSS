@@ -1,24 +1,26 @@
 body {
-    display: flex;
+  display: flex;
+  padding: 0;
+  margin: 0;
 }
 
 div {
-    border: 2px solid black;
-    height: 100px;
-    flex-basis: 33%;
+  border: 2px solid black;
+  height: 100px;
+  width: 500px;
+  flex-basis: auto;
 }
-
 
 /* flex-basis always sets the width */
 /* the three flex-items in this example are always 33% each */
 /* flex-grow & flex-shrink do nothing */
 
 .flex1 {
-    flex-grow: 1;
-    flex-shrink: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 .flex2 {
-    flex-grow: 2;
-    flex-shrink: 8;
+  flex-grow: 2;
+  flex-shrink: 8;
 }
